@@ -1,0 +1,12 @@
+***Configuration Items***
+- Enabled: bool
+- Preferred DateTimes: list of JSON objects
+	- PrefferedDateTime
+		- Day of the week: probably an int
+		- RankedTimeList: 
+- Swimlanes: List of strings
+	- Names of the swim lanes
+- Reservation Lead time (days):
+	- How far in advance the reservations are posted
+- ReservationPostTime: time
+	- the time at which reservations are posted

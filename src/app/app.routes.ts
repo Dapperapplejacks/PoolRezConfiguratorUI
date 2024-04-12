@@ -1,3 +1,7 @@
 import { Routes } from '@angular/router';
+import { ConfiguratorComponent } from './configurator/configurator.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+    { path: 'configurator', component: ConfiguratorComponent },
+    { path: '', component: ConfiguratorComponent },
+];

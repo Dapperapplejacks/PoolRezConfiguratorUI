@@ -1,0 +1,23 @@
+{
+    "preferredDateTimes": 
+    [
+        {
+            "dayOfWeek": "Tuesday",
+            "times": 
+            [
+                "11:30AM",
+                "12:00PM",
+                "12:30PM"
+            ]
+        },
+        {
+            "dayOfWeek": "Thursday",
+            "times": 
+            [
+                "11:30AM",
+                "12:00PM",
+                "12:30PM"
+            ]
+        }
+    ]
+}

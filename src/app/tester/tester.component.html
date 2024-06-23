@@ -1,1 +1,23 @@
-<p>tester works!</p>
+<div>
+    <fieldset>
+        <legend>Login</legend>
+        <div>
+            <label>Username:<input text id="username" name="Username" [(value)]="username"></label>
+            <label>Password:<input password id="password" name="Password" [(value)]="password"></label>
+            <button (click)="login()">Login</button>
+            <br>
+            <label>Token: <textarea>{{loginToken}}</textarea></label>
+        </div>
+    </fieldset>
+    <fieldset [disabled]="!loginToken">
+        <legend>Search + Reserve <span *ngIf="!loginToken">(Requires login)</span></legend>
+        <div class="dateRangeDiv">
+            <label>Start Date: <input type="date" [(value)]="startDate"></label>
+            <label>End Date: <input type="date" [(value)]="endDate"></label>
+        </div>
+        <div class="searchResultsDiv">
+            
+        </div>
+        <button [disabled]="!selectedReservation">Reserve</button>
+    </fieldset>
+</div>
